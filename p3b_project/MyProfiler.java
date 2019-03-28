@@ -44,7 +44,7 @@ public class MyProfiler<K extends Comparable<K>, V> {
 		try {
 			V hashValue = hashtable.get(key);
 			V treeValue = treemap.get(key);
-			System.out.println(hashValue + "," + treeValue);
+			//System.out.println(hashValue + "," + treeValue);
 		} catch (IllegalNullKeyException e) {
 			e.printStackTrace();
 		} catch (KeyNotFoundException e) {
